@@ -4,7 +4,7 @@ import about_img from "../../assets/about_img.png"
 export default function AboutConf() {
   return (
     <>
-        <div className="aboutconf_main_container">
+        <div className="aboutconf_main_container" id='about'>
         <div className="aboutconf_container">
             <h1 className="about_title">About ICCP</h1>
             <div className="about_elements">
