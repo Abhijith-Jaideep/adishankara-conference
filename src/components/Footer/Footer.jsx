@@ -13,7 +13,7 @@ function Footer() {
 
             <div className="footerheadingsection">
 
-                <h1>ICCP 2023</h1>
+                <h2>ICCP 2023</h2>
 
                 <div className="footerpara">
                     <p>This is a sample text. It is used for as a placeholder textThis is a sample text. It is used for as a placeholder text</p>
