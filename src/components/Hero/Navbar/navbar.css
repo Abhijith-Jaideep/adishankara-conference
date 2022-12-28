@@ -1,0 +1,64 @@
+nav{
+    width: 100%;
+    padding-top: 2%;
+}
+
+nav,ul {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+
+.logo {
+    height: 72px;
+    width: 72px;    
+}
+
+ul {
+    width: 40%;
+}
+
+
+li {
+    display: inline-block;
+    position: relative;
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+li:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #4086c0;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+li:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.viewmorebtn{
+    border: 1px solid white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.viewmorebtn:hover{
+    background-color:#2c7bfe;
+    color:white;
+    transition: 0.5s;
+}
