@@ -1,0 +1,76 @@
+.about_college_container{
+    height: max-content;
+    width: 100%;
+    background-color: #2c7bfe;
+    color: white;
+}
+
+.heading1,.heading2{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 4%;
+    padding-top: 2%;
+}
+
+.heading2{
+    position: relative;
+    left: 35.5%;
+}
+
+.our_college,.our_it{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our_it{
+    flex-direction: row-reverse;
+}
+
+.writing{
+    width: 40%;
+    line-height: 25px;
+}
+
+
+.college_images{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.college_images img{
+    height: 100%;
+    width: 45%;
+}
+
+@media(max-width:700px)
+{
+
+    .writing{
+        flex-direction: column;
+        align-items: center;
+        word-wrap: normal;
+        margin-bottom: 5%;
+        width: 100%;
+    }
+    
+    .our_college,.our_it{
+        flex-direction: column;
+    }
+
+    .heading2{
+        left: 0;
+    }
+
+    .college_images img{
+        min-width: 300px;
+        margin-bottom: 5%;
+    }
+}
