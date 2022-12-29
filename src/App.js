@@ -11,6 +11,7 @@ function App() {
     <Hero/>
     <AboutConf />
     <AboutCollege/>
+    <ImportantDates />
     <Footer/>
    </div>
   );
