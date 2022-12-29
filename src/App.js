@@ -9,6 +9,7 @@ function App() {
    <div>
     <Hero/>
     <AboutConf />
+    
     <ImportantDates />
     <Footer/>
    </div>
