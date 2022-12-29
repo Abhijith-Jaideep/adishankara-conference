@@ -1,0 +1,60 @@
+.impdates_main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    margin: 50px 0;
+}
+
+.dates_title{
+    text-align: center;
+    color: #1575BB;
+    font-size: 1.6rem;
+    margin-bottom: 50px;
+}
+td{
+    border-bottom: 1px solid #ddd;
+    padding: 18px 36px;
+}
+
+
+.impdates_table table
+{
+    white-space:nowrap;
+    width: 100%;
+    border-collapse: collapse;
+}
+.status span{
+    background-color: #DCFCE7;
+    color: #236F3F;
+    border-radius: 18px;
+    padding: 6px 10px;
+    font-size: 0.9rem;
+}
+table .conference{
+    background-color: #0B89E3;
+    color: #fff;
+    border-radius: 8px;
+}
+.conference td{
+    padding: 12px 25px !important;
+
+}
+.conference .status_conf span{
+    background-color: #FCDCDC;
+    color: #6F3523;
+    border-radius: 18px;
+    padding: 4px 8px;
+    font-size: 0.8rem;
+}
+
+@media(max-width:730px)
+{
+    .impdates_container{
+        width: 100%;
+    }
+    .impdates_table table{
+        font-size: 0.9rem;
+    }
+}
