@@ -16,6 +16,9 @@ const IndiaCommittee = () => {
                         <div className='designation'>
                             {item.designation}
                         </div>
+                        <div className='location'>
+                            {item.location}
+                        </div>
                     </div>
                 })
                 }
