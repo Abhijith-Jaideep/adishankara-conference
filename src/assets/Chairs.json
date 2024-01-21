@@ -1,0 +1,18 @@
+{
+    "General_Chairs": [
+      {"name": "Prof. CP Jai Sankar", "location": "ASIET, Kalady"},
+      {"name": "Dr. Sureshkumar V", "location": "ASIET, Kalady"}
+    ],
+    "Finance_Chairs": [
+      {"name": "Er. Sreerag M", "location": "ASIET, Kalady"},
+      {"name": "Er. Arya Paul", "location": "ASIET, Kalady"}
+    ],
+    "Publication_Chairs": [
+      {"name": "Dr. VT Gopakumar", "location": "Kalady"},
+      {"name": "Dr. Bipin P R", "location": "ASIET, Kalady"},
+      {"name": "Dr. Ajay Kumar", "location": "ASIET, Kalady"},
+      {"name": "Er. Albins Paul", "location": "ASIET, Kalady"},
+      {"name": "Dr. Prameela B", "location": "ASIET, Kalady"}
+    ]
+  }
+  

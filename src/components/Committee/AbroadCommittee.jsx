@@ -10,11 +10,14 @@ const AbroadCommittee = () => {
 
                 {Abroad.map((item) => {
                     return <div className='person'>
-                        <div className='name'>
+                        <div className='name' style={{ color: 'white' }}>
                             {item.name}
                         </div>
-                        <div className='designation'>
-                            {item.designation}
+                        <div className="info">
+
+                            <div className='designation' style={{ color: 'black' }}>
+                                {item.designation}
+                            </div>
                         </div>
                     </div>
                 })

@@ -12,7 +12,7 @@ export default function AboutConf() {
                     <img src={about_img} alt="" />
                 </div>
                 <div className="about_text">
-                    <p align='justify'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptate laboriosam soluta? Libero aliquid incidunt error fugiat eaque soluta dolorum iure ipsum, eum et porro autem qui odio asperiores, facere nulla? Sunt, quas sint facilis eum tenetur numquam voluptas magnam. Commodi esse maxime, perferendis veritatis quo culpa quia enim odit. Lorem ipsum dolor sit amet consectetur</p>
+                    <p align='justify'>ICCP, or the International Council for Commercial Arbitration, is a global organization dedicated to promoting and facilitating international commercial arbitration. Established in 1961, ICCP provides a platform for practitioners, academics, and professionals in the field of international arbitration to collaborate, share knowledge, and contribute to the development and improvement of international arbitration practices. ICCP is known for its influential role in shaping arbitration rules and standards, including the widely recognized ICC Arbitration Rules. The organization regularly organizes conferences, seminars, and training programs to foster discussions on emerging trends and challenges in international commercial arbitration. ICCP plays a crucial role in promoting the use of arbitration as an effective and efficient means of resolving cross-border commercial disputes, contributing to the harmonization and enhancement of global arbitration practices.</p>
                 </div>
             </div>
         </div>

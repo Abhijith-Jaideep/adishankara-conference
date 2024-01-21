@@ -7,17 +7,19 @@ const KeralaCommittee = () => {
         <div className='Commitee_container'>
             <h2>Kerala Technical Committee</h2>
             <div className='people'>
-
                 {Kerala.map((item) => {
                     return <div className='person'>
-                        <div className='name'>
+                        <div className='name' style={{ color: 'white' }} >
                             {item.name}
                         </div>
-                        <div className='designation'>
-                            {item.designation}
-                        </div>
-                        <div className='location'>
-                            {item.location}
+                        <div className="info">
+
+                            <div className='designation' style={{ color: 'black' }}>
+                                {item.designation}
+                            </div>
+                            <div className='location' style={{ color: 'black' }}>
+                                {item.location}
+                            </div>
                         </div>
                     </div>
                 })
