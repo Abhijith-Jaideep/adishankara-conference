@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/adishankara-conference/static/css/main.b2f377e9.css",
+    "main.js": "/adishankara-conference/static/js/main.c50f2add.js",
+    "static/media/slider.mp4": "/adishankara-conference/static/media/slider.27b16a646a10b1755a1f.mp4",
+    "static/media/logo.png": "/adishankara-conference/static/media/logo.3beedb048c30a70404c5.png",
+    "static/media/about_img.png": "/adishankara-conference/static/media/about_img.fcf1f383e91624bd8c14.png",
+    "index.html": "/adishankara-conference/index.html",
+    "main.b2f377e9.css.map": "/adishankara-conference/static/css/main.b2f377e9.css.map",
+    "main.c50f2add.js.map": "/adishankara-conference/static/js/main.c50f2add.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2f377e9.css",
+    "static/js/main.c50f2add.js"
+  ]
+}
