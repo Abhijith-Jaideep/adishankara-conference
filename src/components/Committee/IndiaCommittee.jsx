@@ -5,7 +5,7 @@ const IndiaCommittee = () => {
 
     return (
         <div className='Commitee_container' style={{ backgroundColor: 'white', color: 'black' }}>
-            <h2>Indian Technical Committee</h2>
+            <h2>From outside Kerala, within India</h2>
             <div className='people'>
 
                 {India.map((item) => {

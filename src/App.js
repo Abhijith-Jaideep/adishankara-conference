@@ -10,17 +10,17 @@ import Chairs from './components/Chairs/Chairs';
 import KeralaCommittee from './components/Committee/KeralaCommittee';
 function App() {
   return (
-   <div>
-    <Hero/>
-    <AboutConf />
-    <AboutCollege/>
-    <ImportantDates />
-    <KeralaCommittee/>
-    <IndiaCommittee/>
-    <AbroadCommittee/>
-    <Chairs/>
-    <Footer/>
-   </div>
+    <div>
+      <Hero />
+      <AboutConf />
+      <AboutCollege />
+      <ImportantDates />
+      <KeralaCommittee />
+      <IndiaCommittee />
+      <AbroadCommittee />
+      <Chairs />
+      <Footer />
+    </div>
   );
 }
 
