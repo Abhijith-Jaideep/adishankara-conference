@@ -4,7 +4,7 @@ import Kerala from "../../assets/Kerala Technical Commitee.json"
 const KeralaCommittee = () => {
 
     return (
-        <div className='Commitee_container'>
+        <div className='Commitee_container' id='committee'>
             <h2>Kerala Technical Committee</h2>
             <div className='people'>
                 {Kerala.map((item) => {

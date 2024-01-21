@@ -57,4 +57,16 @@ table .conference{
     .impdates_table table{
         font-size: 0.9rem;
     }
+
+    table tr{
+        display: flex;
+        flex-direction: column;
+    }
+    td{
+        border: none;
+    }
+
+    tr{
+        border-bottom: 1px solid grey;
+    }
 }

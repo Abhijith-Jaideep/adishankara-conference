@@ -4,7 +4,7 @@ import "./ImportantDates.css"
 export default function ImportantDates() {
   return (
     <>
-        <div className="impdates_main_container">
+        <div className="impdates_main_container" id='importantdates'>
 
             <div className="impdates_container">
                 <h1 className="dates_title">Important Dates</h1>

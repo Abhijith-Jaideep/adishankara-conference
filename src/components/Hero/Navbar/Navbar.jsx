@@ -10,8 +10,8 @@ const Navbar = () => {
         <ul>
           <li>Home</li>
           <Link to='about' smooth={true} ><li>About</li></Link>
-          <li>Contact</li>
-          <li>Sample</li>
+          <Link to='importantdates' smooth={true} ><li>Important Dates</li></Link>
+          <Link to='committee' smooth={true} ><li>Committee</li></Link>
         </ul>
         <button type="button" className='viewmorebtn'>View More</button>
       </nav>
