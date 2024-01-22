@@ -8,12 +8,11 @@ const Navbar = () => {
       <nav>
         <img  className="logo" src={logo} alt="Adi Shankara Institute of Engineering and Technology" />
         <ul>
-          <li>Home</li>
+          <Link to='home' smooth={true}><li>Home</li></Link>
           <Link to='about' smooth={true} ><li>About</li></Link>
           <Link to='importantdates' smooth={true} ><li>Important Dates</li></Link>
           <Link to='committee' smooth={true} ><li>Committee</li></Link>
         </ul>
-        <button type="button" className='viewmorebtn'>View More</button>
       </nav>
   )
 }

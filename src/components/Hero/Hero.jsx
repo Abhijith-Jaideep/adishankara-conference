@@ -4,7 +4,7 @@ import Navbar from './Navbar/Navbar'
 import slider from '../../assets/slider.mp4'
 function Hero() {
   return (
-    <div className='main'>
+    <div className='main' id='home'>
         <video src={slider} autoPlay loop muted type='video/mp4'></video>
         <div className='overlay'>
             <Navbar/>
