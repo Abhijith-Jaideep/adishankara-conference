@@ -1,6 +1,7 @@
 import React from 'react'
 import './chairs.css'
 import chairs from '../../assets/Chairs.json'
+import professor from "../../assets/professor.png"
 const Chairs = () => {
     return (
         <div className='Chairs_container'>
@@ -10,6 +11,9 @@ const Chairs = () => {
 
                 {chairs.General_Chairs.map((item) => {
                     return <div className='person'>
+                        <div className='image'>
+                            <img src={professor} alt="" />
+                        </div>
                         <div className='name'>
                             {item.name}
                         </div>
@@ -31,6 +35,9 @@ const Chairs = () => {
 
                 {chairs.Finance_Chairs.map((item) => {
                     return <div className='person'>
+                        <div className='image'>
+                            <img src={professor} alt="" />
+                        </div>
                         <div className='name'>
                             {item.name}
                         </div>
@@ -52,6 +59,9 @@ const Chairs = () => {
 
                 {chairs.Publication_Chairs.map((item) => {
                     return <div className='person'>
+                        <div className='image'>
+                            <img src={professor} alt="" />
+                        </div>
                         <div className='name'>
                             {item.name}
                         </div>

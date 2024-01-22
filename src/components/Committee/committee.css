@@ -30,12 +30,32 @@
     margin-bottom: 5%;
 }
 
-.name {
-    font-weight: bold;
-    color: #2c7bfe;
-}
-
 .info {
     width: 50%;
     margin-top: 5%;
+}
+
+.person .image{
+    margin: 5%;
+    box-shadow: 0 0 0 3px black;
+    border-radius: 50%;
+    box-shadow: 10px 5px  rgba(0,0,0,0.4);
+    -moz-box-shadow: 10px 5px  rgba(0,0,0,0.4);
+    -webkit-box-shadow: 10px 5px  rgba(0,0,0,0.4);
+    -o-box-shadow: 10px 5px  rgba(0,0,0,0.4);
+  
+}
+
+.person img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+   
+  }
+
+.name {
+    font-weight: bold;
+    color: #2c7bfe;
+    font-size: larger;
 }

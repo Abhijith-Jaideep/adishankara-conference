@@ -1,6 +1,7 @@
 import React from 'react'
 import "./committee.css"
 import India from "../../assets/India Technical Committee.json"
+import professor from "../../assets/professor.png"
 const IndiaCommittee = () => {
 
     return (
@@ -10,6 +11,9 @@ const IndiaCommittee = () => {
 
                 {India.map((item) => {
                     return <div className='person'>
+                        <div className='image'>
+                            <img src={professor} alt="" />
+                        </div>
                         <div className='name'>
                             {item.name}
                         </div>
