@@ -9,10 +9,10 @@ function Hero() {
         <div className='overlay'>
             <Navbar/>
             <div className="herotext">
-                <h1 className='heroheading'>ICCP 2023</h1>
-                <p>7th International Conference on</p>
-                <p>Computer, Communication and Signal Processing</p>
-                <p style={{marginTop:"1%",fontWeight:'bold'}}>January 4 – 6 , 2023</p>
+                <h1 className='heroheading'>ICICCSP 2024</h1>
+                <p>International conference on </p>
+                <p>Information computer communication and signal processing</p>
+                <p style={{marginTop:"1%",fontWeight:'bold'}}>January 4 – 6 , 2024</p>
                 
                 <button type="button" className='explorebtn'>Explore More</button>
             </div>

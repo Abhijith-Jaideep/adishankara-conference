@@ -18,11 +18,9 @@ nav,ul {
     width: 96px;    
 }
 
-ul {
-    width: 50%;
- 
+ul{
+    width: 90%;
 }
-
 
 li {
     display: inline-block;
