@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/adishankara-conference/static/css/main.d498104a.css",
-    "main.js": "/adishankara-conference/static/js/main.c658ee0d.js",
+    "main.css": "/adishankara-conference/static/css/main.1bc56bae.css",
+    "main.js": "/adishankara-conference/static/js/main.3c60b8bf.js",
     "static/media/slider.mp4": "/adishankara-conference/static/media/slider.27b16a646a10b1755a1f.mp4",
     "static/media/logo.png": "/adishankara-conference/static/media/logo.3beedb048c30a70404c5.png",
     "static/media/about_img.png": "/adishankara-conference/static/media/about_img.fcf1f383e91624bd8c14.png",
+    "static/media/professor.png": "/adishankara-conference/static/media/professor.57b125d7646162c34510.png",
     "index.html": "/adishankara-conference/index.html",
-    "main.d498104a.css.map": "/adishankara-conference/static/css/main.d498104a.css.map",
-    "main.c658ee0d.js.map": "/adishankara-conference/static/js/main.c658ee0d.js.map"
+    "main.1bc56bae.css.map": "/adishankara-conference/static/css/main.1bc56bae.css.map",
+    "main.3c60b8bf.js.map": "/adishankara-conference/static/js/main.3c60b8bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.d498104a.css",
-    "static/js/main.c658ee0d.js"
+    "static/css/main.1bc56bae.css",
+    "static/js/main.3c60b8bf.js"
   ]
 }
