@@ -1,17 +1,30 @@
 {
   "files": {
-    "main.css": "/adishankara-conference/static/css/main.524d20fc.css",
-    "main.js": "/adishankara-conference/static/js/main.e171fb4e.js",
+    "main.css": "/adishankara-conference/static/css/main.e3cb8380.css",
+    "main.js": "/adishankara-conference/static/js/main.0f886260.js",
     "static/media/slider.mp4": "/adishankara-conference/static/media/slider.27b16a646a10b1755a1f.mp4",
     "static/media/logo.png": "/adishankara-conference/static/media/logo.3beedb048c30a70404c5.png",
+    "static/media/Dr. Sanaj M S.jpg": "/adishankara-conference/static/media/Dr. Sanaj M S.46fe2e50d3352aeae90d.jpg",
+    "static/media/P V Rajaraman.jpg": "/adishankara-conference/static/media/P V Rajaraman.bee9e1ea39022bab09ce.jpg",
+    "static/media/Manesh T.jpg": "/adishankara-conference/static/media/Manesh T.d80799bf96981feee8d2.jpg",
     "static/media/about_img.png": "/adishankara-conference/static/media/about_img.fcf1f383e91624bd8c14.png",
-    "static/media/professor.png": "/adishankara-conference/static/media/professor.57b125d7646162c34510.png",
+    "static/media/Binju Saju.jpg": "/adishankara-conference/static/media/Binju Saju.fdd07a8e41131cdfaa3e.jpg",
+    "static/media/Dr. Hari Narayanan A G.jpg": "/adishankara-conference/static/media/Dr. Hari Narayanan A G.1e944380068ea9a64be1.jpg",
+    "static/media/Manjula Devananda.jpg": "/adishankara-conference/static/media/Manjula Devananda.273d31799f7dde2b563b.jpg",
+    "static/media/Xavier Fernando.jpg": "/adishankara-conference/static/media/Xavier Fernando.98d1a62977d49e7f58e4.jpg",
+    "static/media/Dr. Sri Vallabha Deevi.jpg": "/adishankara-conference/static/media/Dr. Sri Vallabha Deevi.1a4712aecb63f0557fa2.jpg",
+    "static/media/Dr. Krishna Venkatesh.jpg": "/adishankara-conference/static/media/Dr. Krishna Venkatesh.6687bd24d2bb047a70c9.jpg",
+    "static/media/Dr. Shujun Li.jpg": "/adishankara-conference/static/media/Dr. Shujun Li.eb562bcf2f22e80128e6.jpg",
+    "static/media/Manu Sakariah.jpg": "/adishankara-conference/static/media/Manu Sakariah.bc3165bbd783cabad812.jpg",
+    "static/media/Dr. Renjith Poulose.jpg": "/adishankara-conference/static/media/Dr. Renjith Poulose.126d1c5a7ba37b1294a5.jpg",
+    "static/media/Sabu M Thampi.jpg": "/adishankara-conference/static/media/Sabu M Thampi.e286da66ade53dd70d80.jpg",
+    "static/media/Ramesh Unnikrishnan.jpg": "/adishankara-conference/static/media/Ramesh Unnikrishnan.0b1541241fc8ccf17a95.jpg",
     "index.html": "/adishankara-conference/index.html",
-    "main.524d20fc.css.map": "/adishankara-conference/static/css/main.524d20fc.css.map",
-    "main.e171fb4e.js.map": "/adishankara-conference/static/js/main.e171fb4e.js.map"
+    "main.e3cb8380.css.map": "/adishankara-conference/static/css/main.e3cb8380.css.map",
+    "main.0f886260.js.map": "/adishankara-conference/static/js/main.0f886260.js.map"
   },
   "entrypoints": [
-    "static/css/main.524d20fc.css",
-    "static/js/main.e171fb4e.js"
+    "static/css/main.e3cb8380.css",
+    "static/js/main.0f886260.js"
   ]
 }
