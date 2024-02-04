@@ -1,18 +1,18 @@
 import React from 'react'
 import "./committee.css"
-import Abroad from "../../assets/Abroad Committee.json"
-import professor from "../../assets/professor.png"
-const AbroadCommittee = () => {
+import committeeMembers from "../../assets/OrganizingCommittee.js"
+
+const OrganizingCommittee = () => {
 
     return (
         <div className='Commitee_container'>
-            <h2>Abroad Technical Committee</h2>
+            <h2 style={{color:'white'}}>Organizing Committee</h2>
             <div className='people'>
 
-                {Abroad.map((item) => {
+                {committeeMembers.map((item) => {
                     return <div className='person'>
                         <div className='image'>
-                            <img src={professor} alt="" />
+                            <img src={item.photo} alt="" />
                         </div>
                         <div className='name' style={{ color: 'white' }}>
                             {item.name}
@@ -32,4 +32,4 @@ const AbroadCommittee = () => {
     )
 }
 
-export default AbroadCommittee
+export default OrganizingCommittee

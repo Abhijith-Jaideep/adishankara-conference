@@ -1,28 +1,26 @@
 import React from 'react'
 import "./committee.css"
-import India from "../../assets/India Technical Committee.json"
-import professor from "../../assets/professor.png"
-const IndiaCommittee = () => {
-
+import committeeMembers from "../../assets/ProgramCommittee.js"
+const ProgramCommittee = () => {
+    console.log(Object.keys(committeeMembers).length);
     return (
-        <div className='Commitee_container' style={{ backgroundColor: 'white', color: 'black' }}>
-            <h2>From outside Kerala, within India</h2>
+        <div className='Commitee_container' id='committee' style={{ backgroundColor: 'white', color: 'black' }}>
+            <h2>Program Committee</h2>
             <div className='people'>
-
-                {India.map((item) => {
+                {committeeMembers.map((item) => {
                     return <div className='person'>
                         <div className='image'>
-                            <img src={professor} alt="" />
+                            <img src={item.photo} alt="" />
                         </div>
                         <div className='name'>
                             {item.name}
                         </div>
                         <div className="info">
 
-                            <div className='designation'>
+                            <div className='designation' style={{ color: 'black' }}>
                                 {item.designation}
                             </div>
-                            <div className='location'>
+                            <div className='location' style={{ color: 'black' }}>
                                 {item.location}
                             </div>
                         </div>
@@ -35,4 +33,4 @@ const IndiaCommittee = () => {
     )
 }
 
-export default IndiaCommittee
+export default ProgramCommittee

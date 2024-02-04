@@ -4,10 +4,9 @@ import AboutConf from './components/AboutConf/AboutConf';
 import Footer from './components/Footer/Footer';
 import Hero from './components/Hero/Hero';
 import ImportantDates from './components/ImportantDates/ImportantDates';
-import IndiaCommittee from './components/Committee/IndiaCommittee';
-import AbroadCommittee from './components/Committee/AbroadCommittee';
-import Chairs from './components/Chairs/Chairs';
-import KeralaCommittee from './components/Committee/KeralaCommittee';
+import AdvisoryCommittee from './components/Committee/AdvisoryCommittee';
+import ProgramCommittee from './components/Committee/ProgramCommittee';
+import OrganizingCommittee from './components/Committee/OrganizingCommittee';
 function App() {
   return (
     <div>
@@ -15,10 +14,9 @@ function App() {
       <AboutConf />
       <AboutCollege />
       <ImportantDates />
-      <KeralaCommittee />
-      <IndiaCommittee />
-      <AbroadCommittee />
-      <Chairs />
+      <AdvisoryCommittee />
+      <ProgramCommittee />
+      <OrganizingCommittee />
       <Footer />
     </div>
   );
