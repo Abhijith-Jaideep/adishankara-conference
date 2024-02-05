@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/adishankara-conference/static/css/main.e3cb8380.css",
+    "main.css": "/adishankara-conference/static/css/main.48160f07.css",
     "main.js": "/adishankara-conference/static/js/main.0f886260.js",
     "static/media/slider.mp4": "/adishankara-conference/static/media/slider.27b16a646a10b1755a1f.mp4",
     "static/media/logo.png": "/adishankara-conference/static/media/logo.3beedb048c30a70404c5.png",
@@ -20,11 +20,11 @@
     "static/media/Sabu M Thampi.jpg": "/adishankara-conference/static/media/Sabu M Thampi.e286da66ade53dd70d80.jpg",
     "static/media/Ramesh Unnikrishnan.jpg": "/adishankara-conference/static/media/Ramesh Unnikrishnan.0b1541241fc8ccf17a95.jpg",
     "index.html": "/adishankara-conference/index.html",
-    "main.e3cb8380.css.map": "/adishankara-conference/static/css/main.e3cb8380.css.map",
+    "main.48160f07.css.map": "/adishankara-conference/static/css/main.48160f07.css.map",
     "main.0f886260.js.map": "/adishankara-conference/static/js/main.0f886260.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3cb8380.css",
+    "static/css/main.48160f07.css",
     "static/js/main.0f886260.js"
   ]
 }
