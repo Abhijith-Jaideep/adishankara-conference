@@ -4,11 +4,17 @@ nav{
     background-color: rgba(0,0,0, 0.4);
 }
 
-nav,ul {
+nav, nav ul {
     display: flex;
     color: white;
     justify-content: space-around;
     align-items: center;
+}
+
+nav li:hover{
+    color: #2c7bfe;
+    cursor: pointer;
+    transition: all 0.25s;
 }
 
 
@@ -18,49 +24,7 @@ nav,ul {
     width: 96px;    
 }
 
-ul{
+nav ul{
     width: 90%;
 }
 
-li {
-    display: inline-block;
-    position: relative;
-    color: white;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-li:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #4086c0;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-
-li:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
-/* 
-.viewmorebtn{
-    border: 1px solid white;
-    padding: 5px 15px;
-    border-radius: 10px;
-    font-size: 18px;
-    background-color: transparent;
-    color: white;
-    cursor: pointer;
-    transition: 0.5s;
-}
-
-.viewmorebtn:hover{
-    background-color:#2c7bfe;
-    color:white;
-    transition: 0.5s;
-} */

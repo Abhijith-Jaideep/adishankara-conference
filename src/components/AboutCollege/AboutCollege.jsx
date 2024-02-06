@@ -5,8 +5,8 @@ import college from '../../../src/assets/about_img.png'
 function AboutCollege() {
     return (
         <>
-            <h1 className='about_title'>About Us</h1>
             <div className="about_college_container">
+                <h1 className='about_title heading' style={{color:'white'}}>About Us</h1>
                 <h2 className='heading1'>Our College</h2>
                 <div className="our_college">
                     <div className="writing">

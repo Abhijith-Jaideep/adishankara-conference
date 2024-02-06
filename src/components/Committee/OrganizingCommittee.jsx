@@ -6,7 +6,7 @@ const OrganizingCommittee = () => {
 
     return (
         <div className='Commitee_container'>
-            <h2 style={{color:'white'}}>Organizing Committee</h2>
+            <h2 className='heading'>Organizing Committee</h2>
             <div className='people'>
 
                 {committeeMembers.map((item) => {
@@ -14,12 +14,12 @@ const OrganizingCommittee = () => {
                         <div className='image'>
                             <img src={item.photo} alt="" />
                         </div>
-                        <div className='name' style={{ color: 'white' }}>
+                        <div className='name'>
                             {item.name}
                         </div>
                         <div className="info">
 
-                            <div className='designation' style={{ color: 'black' }}>
+                            <div className='designation'>
                                 {item.designation}
                             </div>
                         </div>

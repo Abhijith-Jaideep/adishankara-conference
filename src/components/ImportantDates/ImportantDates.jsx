@@ -7,7 +7,7 @@ export default function ImportantDates() {
         <div className="impdates_main_container" id='importantdates'>
 
             <div className="impdates_container">
-                <h1 className="dates_title">Important Dates</h1>
+                <h1 className="dates_title heading">Important Dates</h1>
                 <div className="impdates_table" style={{overflowX:"auto"}}>
                     <table>
                         

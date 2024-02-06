@@ -7,6 +7,9 @@ import ImportantDates from './components/ImportantDates/ImportantDates';
 import AdvisoryCommittee from './components/Committee/AdvisoryCommittee';
 import ProgramCommittee from './components/Committee/ProgramCommittee';
 import OrganizingCommittee from './components/Committee/OrganizingCommittee';
+import CallForPaper from './components/CallForPaper/CallForPaper';
+import PreConferenceWorkshop from './components/PreconferenceWorkshop/PreConferenceWorkshop';
+import Speakers from './components/Speakers/Speakers';
 function App() {
   return (
     <div>
@@ -14,9 +17,12 @@ function App() {
       <AboutConf />
       <AboutCollege />
       <ImportantDates />
+      <CallForPaper/>
       <AdvisoryCommittee />
       <ProgramCommittee />
       <OrganizingCommittee />
+      <PreConferenceWorkshop/>
+      <Speakers/>
       <Footer />
     </div>
   );

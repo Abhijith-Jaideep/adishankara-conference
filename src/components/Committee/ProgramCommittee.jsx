@@ -5,7 +5,7 @@ const ProgramCommittee = () => {
     console.log(Object.keys(committeeMembers).length);
     return (
         <div className='Commitee_container' id='committee' style={{ backgroundColor: 'white', color: 'black' }}>
-            <h2>Program Committee</h2>
+            <h2 className='heading'>Program Committee</h2>
             <div className='people'>
                 {committeeMembers.map((item) => {
                     return <div className='person'>

@@ -6,7 +6,7 @@ export default function AboutConf() {
     <>
         <div className="aboutconf_main_container" id='about'>
         <div className="aboutconf_container">
-            <h1 className="about_title">About ICCP</h1>
+            <h1 className="about_title heading">About ICCP</h1>
             <div className="about_elements">
                 <div className="about_img">
                     <img src={about_img} alt="" />

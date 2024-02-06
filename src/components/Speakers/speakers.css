@@ -1,0 +1,17 @@
+.speakers-container{
+    display: flex;
+    flex-direction: column;
+    color: #2c7bfe;
+    align-items: center;
+    
+}
+
+.speakers-container h2{
+    margin: 20px 0;
+}
+
+.speakers-container .speakers{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}

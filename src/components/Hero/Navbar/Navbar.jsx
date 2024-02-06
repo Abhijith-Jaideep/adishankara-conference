@@ -11,9 +11,9 @@ const Navbar = () => {
         <Link to='home' smooth={true}><li>Conference</li></Link>
         <Link to='about' smooth={true} ><li>About</li></Link>
         <Link to='importantdates' smooth={true} ><li>Important Dates</li></Link>
-        <Link to='home' smooth={true} ><li>Call for Paper</li></Link>
-        <Link to='home' smooth={true} ><li>Pre-conf Workshop</li></Link>
-        <Link to='home' smooth={true} ><li>Speakers</li></Link>
+        <Link to='callforpaper' smooth={true} ><li>Call for Paper</li></Link>
+        <Link to='preconferenceworkshop' smooth={true} ><li>Pre-conf Workshop</li></Link>
+        <Link to='speakers' smooth={true} ><li>Speakers</li></Link>
         <Link to='home' smooth={true} ><li>For Authors</li></Link>
         <Link to='home' smooth={true} ><li style={{color:"red"}}>Registration</li></Link>
         <Link to='home' smooth={true} ><li>Payment</li></Link>
